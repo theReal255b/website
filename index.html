@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn more about the services offered by Bates Towing and Recovery in Des Moines, Iowa.">
+    <title>Services - Bates Towing and Recovery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="banner1.jpg" alt="Bates Towing and Recovery Banner" class="banner">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="services-list">
+            <h2>What We Offer</h2>
+            <div class="service-box" onclick="toggleDetails(this)">
+                <h3>Fuel Deliveries</h3>
+                <p class="summary">We provide fuel deliveries to get you back on the road quickly.</p>
+            </div>
+            <div class="service-box" onclick="toggleDetails(this)">
+                <h3>Tire Changes</h3>
+                <p class="summary">Our tire change service ensures you are never stranded with a flat tire.</p>
+            </div>
+            <div class="service-box" onclick="toggleDetails(this)">
+                <h3>Vehicle Unlocks</h3>
+                <p class="summary">Locked out? We can unlock your vehicle swiftly and safely.</p>
+            </div>
+            <div class="service-box" onclick="toggleDetails(this)">
+                <h3>Jump Starts</h3>
+                <p class="summary">Dead battery? Our jump start service will get your car running again.</p>
+            </div>
+            <div class="service-box" onclick="toggleDetails(this)">
+                <h3>Light-Duty Towing</h3>
+                <p class="summary">We offer light-duty towing for cars, motorcycles, and small trucks.</p>
+            </div>
+            <div class="service-box" onclick="toggleDetails(this)">
+                <h3>Winchouts</h3>
+                <p class="summary">Stuck in a ditch or mud? Our winchout service can rescue your vehicle.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="trucks1.jpeg" alt="Bates Towing Fleet" class="footer-image">
+        <p>&copy; 2025 Bates Towing and Recovery. All rights reserved.</p>
+        <p>Follow us on: 
+            <a href="https://m.facebook.com/100077493916728/" target="_blank">Facebook</a>
+        </p>
+    </footer>
+
+    <script>
+        // Toggle service summaries
+        function toggleDetails(element) {
+            element.classList.toggle('expanded');
+        }
+    </script>
+</body>
+
+</html>
